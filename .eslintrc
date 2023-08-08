@@ -1,0 +1,24 @@
+{
+    "extends": "standard",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "comma-dangle": 0,
+      "semi": [2, "always"],
+      "no-extra-semi": 2,
+      "semi-spacing": [2, {
+        "before": false,
+        "after": true
+      }],
+      "space-before-function-paren": 0
+    },
+    "overrides": [{
+      "files": "*.test.js",
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }]
+  
+  }
+  
